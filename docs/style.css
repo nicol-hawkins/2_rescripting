@@ -1,0 +1,248 @@
+flex {
+    display: flex;
+  } 
+
+  .container-fluid {
+    background-image: url("triangle-mosaic.png");
+    background-size: 15%;
+    background-size: auto;
+    height: 100px;
+  }
+
+  
+  .intro {
+    font-size: 55pt;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: -50px;
+    padding-left: 0px;
+  }
+  
+  .btn-blog {
+    border: 0px solid black;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    padding: 4px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    background: lightgray;
+    text-decoration: none;
+    
+  }
+  
+  .btn-blog:hover {
+    background-color: #9eeca8; 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+  }
+  
+  .btn-resume {
+    border: 0px solid black;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    position: relative;
+    padding: 4px;
+    top: 25px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    background: lightgray;
+    text-decoration: none;
+  }
+  
+  .btn-resume:hover {
+    background-color: #9eeca8; 
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  .btn-about {
+    border: 0px solid black;
+    color: black;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 26px;
+    padding: 4px;
+    position: relative;
+    top: 25px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    background: lightgray;
+    text-decoration: none;  
+
+  }
+  
+  .btn-about:hover {
+    background-color: #9eeca8; 
+    color: black;
+    text-decoration: none;
+  }
+   
+  .rounded-circle {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: -65px; 
+  } 
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    /* position: relative;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: -65px;  */
+  } 
+  
+  .btn-email {
+    border: 0px solid black;
+    color: black;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 20px;
+    bottom: 75px;
+    right: 450px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background: rgb(226, 137, 204);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .btn-email:hover {
+    background-color: rgb(199, 56, 115); 
+    color: black;
+    text-decoration: none;
+  }
+  
+  .btn-link {
+    text-decoration: none;
+  }
+
+  .btn-linked-in {
+    font-family: 'Roboto Mono', monospace;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    color: black;
+    background: lightgray;
+    padding: 4px;
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    right: 65px;
+    bottom: 200px;
+  }
+  
+  .btn-linked-in:hover {
+    background-color: rgb(224, 154, 189); 
+    color: black;
+    text-decoration: none;
+  }
+  
+  .btn-soundcloud {
+    font-family: 'Roboto Mono', monospace;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    color: black;
+    background: lightgray;
+    padding: 4px;
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    right: 180px;
+    bottom: 160px;
+  }
+  
+  .btn-soundcloud:hover {
+    background-color: rgb(224, 154, 189); 
+    color: black;
+    text-decoration: none;
+  } 
+
+  .btn-github {
+    font-family: 'Roboto Mono', monospace;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.8s;
+    color: black;
+    background: lightgray;
+    padding: 4px;
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    right: 306px;
+    bottom: 120px;
+  }
+  
+  .btn-github:hover {
+    background-color: rgb(224, 154, 189);
+    color: black;
+    text-decoration: none;
+  }
+  
+  .gradient {
+    background:
+      -webkit-linear-gradient(315deg, hsla(134.84, 92.37%, 42.76%, 1) 0%, hsla(134.84, 92.37%, 42.76%, 0) 70%),
+      -webkit-linear-gradient(65deg, hsla(198.34, 91.23%, 45.94%, 1) 10%, hsla(198.34, 91.23%, 45.94%, 0) 80%),
+      -webkit-linear-gradient(135deg, hsla(4.44, 98.23%, 42.8%, 1) 15%, hsla(4.44, 98.23%, 42.8%, 0) 80%),
+      -webkit-linear-gradient(205deg, hsla(294.1, 92.67%, 46.92%, 1) 100%, hsla(294.1, 92.67%, 46.92%, 0) 70%);
+    background:
+      linear-gradient(135deg, hsla(134.84, 92.37%, 42.76%, 1) 0%, hsla(134.84, 92.37%, 42.76%, 0) 70%),
+      linear-gradient(25deg, hsla(198.34, 91.23%, 45.94%, 1) 10%, hsla(198.34, 91.23%, 45.94%, 0) 80%),
+      linear-gradient(315deg, hsla(4.44, 98.23%, 42.8%, 1) 15%, hsla(4.44, 98.23%, 42.8%, 0) 80%),
+      linear-gradient(245deg, hsla(294.1, 92.67%, 46.92%, 1) 100%, hsla(294.1, 92.67%, 46.92%, 0) 70%);
+    background-size: auto;
+      }
+
+    .animated-gif {
+      width: 500px; 
+      height: auto;
+      position: absolute;
+      left: 721px;
+      z-index: 2;
+      
+    }
+    
+    .text-box {
+      height: 525px;
+      width: 600px;
+      background-color:rgb(248, 244, 244);
+      opacity: 0.5;
+      overflow: auto;
+      position: relative;
+      z-index: 1;
+      /* font-family: 'Noto Sans KR', sans-serif; */
+      /* margin-left: 25px;   */
+      left: -105px;
+      padding-left: 20px;
+    }
+    
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+  
+  
+  
+
+  
+  
+    /* .blog-text {
+      font-family: 'Noto Sans KR', sans-serif;
+  
+    .about-text {
+      right-padding: 20px;
+    }
+  */
+  
